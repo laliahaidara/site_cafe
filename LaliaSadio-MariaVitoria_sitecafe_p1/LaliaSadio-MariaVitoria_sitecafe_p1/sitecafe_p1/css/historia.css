@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Gideon+Roman&family=Josefin+Sans:wght@300&family=Montserrat:wght@200;300&family=Raleway:wght@200&display=swap');
 
 body{
-    background-color: #ad8d6f;
+    background-color: #653011;
 }
 
 header, #img-topo{
@@ -35,22 +35,30 @@ a{
 .a-menu:link,.a-menu:visited{color: #7b5531;}
 
 p{
-	color: #757575;
+	color: #FFF;
 	font: 1.5em 'Poppins', sens-serif; 
 	text-align: justify;
 	font-weight: 300;
 	line-height: 1.5em;
+    padding: 20px;
 }
 
+#fonte{
+    color: #FFF;
+	font: 1em 'Arial', sens-serif; 
+	text-align: justify;
+	font-weight: 300;
+	line-height: 1.5em;
+}
 section{
 	padding: 20px;
 }
 
 h2{
-	color: #352315;
-	font-family: 'Kaushan Script';
-	font-size: 3em;
-	text-align: left;
+	color: #E2CE9C;
+	font-family: 'DM Serif Display';
+	font-size: 3.5em;
+	text-align: center;
 }
 
 
@@ -63,6 +71,30 @@ ul{
 }
 
 
+div{
+	display: flex;
+	justify-content: center;
+}
+#pic{
+	display: block;
+	margin-left: 5px;
+	width: 15%;
+}
+
+#imgP{
+	font-family: Arial, serif;
+	font-size: small;
+	text-align: left;
+	margin-left: 670px;
+}
+
+#imgP2{
+	font-family: Arial, serif;
+	font-size: small;
+	text-align: right;
+	margin-left: 670px;
+}
+
 
 li{
 	font-size: 1em;
@@ -71,14 +103,19 @@ li{
 	line-height: 2em;
 } 
 
+#fonte{
+	font-size: 20px;
+	color: #d6d6d6;
+}
+
 footer{
 	background-color: #000;
-	clear: both;
 }
-footer p{
+footer p,a{
 	text-align: center;
 	color: #FFF;
 	font-size: 1,5em;
+	font-family: Arial, Helvetica, sans-serif;
 }
 footer a{
 	color: #FFF;

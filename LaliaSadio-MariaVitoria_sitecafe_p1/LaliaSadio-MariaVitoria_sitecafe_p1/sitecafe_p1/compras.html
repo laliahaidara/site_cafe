@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/compras.css">
+
+    <title>Site Café Livre</title>
+</head>
+<body>
+
+<header>
+    <img id="img-topo" src="img/banner.jpg" alt="banner do site PFB no Parque com imagem do parque da cidade e logo do projeto"/>
+</header>
+
+<nav>
+    <a class="a-menu" href="index.html">Home</a>
+    <a class="a-menu" href="saches.html">Sachês</a>
+    <a class="a-menu" href="maquinas.html">Máquinas</a>
+    <a class="a-menu" href="#compras.html">Compras</a>
+    <a class="a-menu" href="historia.html">História</a>
+</nav>
+<form name="" method="" action="">
+	<legend>Dados de Identificação</legend>		
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome_completo" id="nome" placeholder="Nome Completo" required autofocus />
+    
+    <label for="telfone">Telefone:</label>
+    <input id="telefone" type="tel" name="telefone" placeholder="(99)99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" />
+    
+    <label for="email">E-mail:</label>
+    <input id="email" type="email" name="email" placeholder="nomeusuario@email.com" required />
+    
+    <label for="cpf">CPF:</label>
+    <input id="cpf" type="text" name="cpf" placeholder="000.000.000-00" pattern="[0-9]{11}" required />
+
+    <label for="endereco">Endereço:</label> 
+    <input id="endereco" type="address" name="endereco" placeholder="Digite seu endereço" required />
+    </form>
+
+    <form>
+        <legend>Produtos</legend>
+        <label for="maq" >Máquinas:</label>
+            <select id="maq" name="maq" >
+                <option>---</option>
+                <optgroup label="Dolce Gusto">
+                    <option value="piccolo">Piccolo</option>
+                </optgroup>
+                <optgroup label="Nespresso">
+                    <option value="inissia">Inissia C40</option>
+                    <option value="uc50">U C50</option>
+                </optgroup>
+                <optgroup label="Senseo">
+                    <option value="HD7811">HD7811/96</option>
+                </optgroup>
+            </select><br>
+
+            <label for="sac" >Sachês:</label>
+            <select id="sac" name="sac" >
+                <option>---</option>
+                <optgroup label="Dolce Gusto">
+                    <option value="expresso">Expresso</option>
+                    <option value="decaf">Descaifenado</option>
+                </optgroup>
+                <optgroup label="Nespresso">
+                    <option value="livanto">Livanto</option>
+                    <option value="ristretto">Ristretto</option>
+                    <option value="vanilio">Vanilio</option>
+                </optgroup>
+                <optgroup label="Senseo">
+                    <option value="classico">Clássico</option>
+                    <option value="intenso">Intenso</option>
+                </optgroup>
+            </select><br>
+
+            <label for="msg">Selecionados:</label><input id="btn" type="reset" name="btn-cancelar" value="Remover" />
+            <br>
+            <textarea id="msg"></textarea>
+            <label for="msg">Valor:</label><input id="btn" type="submit" name="vazio" value="" />
+
+        </form>
+
+        <form>
+    <fieldset>
+    
+        <legend id="sel">Forma de Pagamento:</legend>
+        <input id="card" type="radio" name="pag" value="card" /> <label for="card">Cartão</label>
+        <input id="check" type="radio" name="pag" value="check" /> <label for="check">Cheque</label>
+        <input id="din" type="radio" name="pag" value="din" /> <label for="din">Dinheiro</label>
+    
+    </fieldset>
+    
+    <fieldset>
+    
+        <legend id="sel">Dados do Cartão:</legend>
+        <input id="visa" type="radio" name="cart" value="visa" /><img src="img/visa.png"/>
+        <input id="master" type="radio" name="cart" value="master" /><img src="img/master.png"/>
+        <input id="amex" type="radio" name="cart" value="amex" /><img src="img/amex.png"/>
+    
+    </fieldset>
+        <label for="val">Validade:</label>
+        <input class="val" id="mes" type="text" name="mes" placeholder="MM" pattern="[0-9]" required />/<input id="ano" type="text" name="ano" placeholder="AAAA" pattern="[0-9]" required />
+
+        <label for="num">Número:</label>
+        <input class="val" id="num" type="text" name="num" placeholder="0000.0000.0000.0000" pattern="[0-9]" required />
+    </form>
+ <div class="container">
+        <input class="btn" type="submit" name="btn-agendar" value="OK"/>
+        <input class="btn" type="reset" name="btn-cancelar" value="CANCELAR" />
+    </div>
+
+</section>
+
+<footer>
+    <p>Desenvolvido por </a><a class="a-footer" href="https://www.instagram.com/laliahaidaras" target="_blank"> Lalia Haidara -</a><a class="a-footer" href="https://www.instagram.com/maviurias/" target="_blank">Maria Vitória</a> - 2023 </p>
+
+</footer>
+
+</body>
+</html>
