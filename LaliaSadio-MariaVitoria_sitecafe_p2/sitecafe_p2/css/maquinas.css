@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Gideon+Roman&family=Josefin+Sans:wght@300&family=Montserrat:wght@200;300&family=Raleway:wght@200&display=swap');
+
+
+body{
+    background-color: #ad8d6f;
+}
+
+header, #img-topo{
+   	width: 100%;
+   	background-color:#ebe0bd;
+}
+
+nav{background-color: #ebe0bd;
+	text-align: center;
+	padding: 20px;
+}
+
+
+a{
+ 	text-decoration: none;
+ 	font: 1.3em 'Poppins', sans-serif;
+ 	margin-right: 30px;
+
+ }
+.a-menu{ 
+	 
+	text-decoration: none;
+ 	font: 1.7em 'Poppins', sans-serif;
+ 	margin-right: 30px;}
+
+.a-menu:hover{color: #212121 ;}
+.a-menu:active{
+ 	color: #FFF;}
+
+.a-menu:link,.a-menu:visited{color: #7b5531;}
+
+h2{
+	color: #352315;
+	font-family: 'Kaushan Script';
+	font-size: 3em;
+	text-align: left;
+}
+
+table{
+    color: #000;
+    background-color: #fff;
+	border-color: #352315;
+	border-style: inset;
+	align-content: center;
+}
+
+.table-responsive{
+	width: 100% ;
+  }
+  
+  .table {
+	  border: 1px solid black;
+	  width: 50%;
+	  margin: auto;
+  }
+  
+  .table-status {
+	  margin-top: 20px;
+	  margin-bottom: 20px;
+  }
+
+#tabela2{
+	width: 60%;
+	height: auto;
+}
+
+#tabela3{
+	width: 70%;
+}
+.coluna{
+	background-color: #8a6441;
+	color: #fff;
+	font-size: 170%;
+}
+
+.main{
+    font-size: 55px;
+	text-align: center;
+	font-family: 'Josefin Sans', sens-serif;
+	
+}
+
+.nome{
+    background-color: #f7c899;
+    color: #352315;
+    font-size: 30px;
+	text-align: center;
+}
+#t1{
+	font-size: 25px;
+	width: 30%;
+}
+
+.modelo{
+	font-size: 20px;
+	text-align: center;
+}
+
+.preco{
+	color: #fc0000;
+	font-family: Poppins;
+	font-size: 20px;
+	text-align: center;
+}
+
+.img{
+	width: 15%;
+}
+#f1{
+	width: 10%;
+	padding: 0px;
+}
+
+#f2{
+	width: 30%;
+}
+
+#p1{
+	width: 20%;
+}
+.fotos-maquinas{
+	width: 5%;
+}
+
+footer{
+	background-color: #000;
+}
+p,a{
+	text-align: center;
+	color: #FFF;
+	font-size: 1,5em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+footer a{
+	color: #FFF;
+	text-decoration: none;
+
+}
+footer a:hover{
+	color: #b53f3f;
+}
+
+
+/*modificações*/
+
+.link-maquina {
+    color: #573218;
+    text-decoration: none;
+}
+.link-maquina:visited {
+    color: #662222;
+}

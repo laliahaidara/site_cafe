@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Gideon+Roman&family=Josefin+Sans:wght@300&family=Montserrat:wght@200;300&family=Raleway:wght@200&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+    background-color: #ad8d6f;
+}
+
+header, #img-topo{
+   	width: 100%;
+   	background-color:#ebe0bd;
+}
+
+nav{background-color: #ebe0bd;
+	text-align: center;
+	padding: 20px;
+}
+
+
+a{
+ 	text-decoration: none;
+ 	font: 1.3em 'Poppins', sans-serif;
+ 	margin-right: 30px;
+
+ }
+.a-menu{ 
+	 
+	text-decoration: none;
+ 	font: 1.7em 'Poppins', sans-serif;
+ 	margin-right: 30px;}
+
+.a-menu:hover{color: #212121 ;}
+.a-menu:active{
+ 	color: #FFF;}
+
+.a-menu:link,.a-menu:visited{color: #7b5531;}
+
+section{
+	padding: 20px;
+}
+
+h1{
+	color: #352315;
+	font-family: 'DM Serif Display';
+	font-size: 4em;
+	text-align: center;
+}
+
+
+
+ul{
+	margin-left: 100px;
+	list-style-type: circle;
+	font-size: 35px;
+	list-style-position: inside;
+    font-family: 'Josefin Sans';
+}
+
+li,.a-sache{
+	font-size: 45px;
+	color: #6b0000;
+	font-family: 'Josefin Sans', sens-serif;
+	line-height: 2em;
+    list-style-type: decimal;
+} 
+
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005a9e;
+}
+
+footer{
+	background-color: #000;
+}
+footer p,a{
+	text-align: center;
+	color: #FFF;
+	font-size: 1,5em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+footer a{
+	color: #FFF;
+	text-decoration: none;
+
+}
+footer a:hover{
+	color: #b53f3f;
+}
+
+/*Window.js*/
+
+.windowh1{
+	font-size: 300%;
+}
+.Pwindow{
+	font: Arial;
+	font-size: 150%;
+}
+
+#windowUL{
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.LIwindow{
+	font-size: 43%;
+	color: #440a0a;
+	font-family: 'Arial', sens-serif;
+	padding-right: 10px;
+	list-style-type: decimal;
+}
